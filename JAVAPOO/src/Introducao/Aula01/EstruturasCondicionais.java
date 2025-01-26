@@ -20,6 +20,21 @@ public class EstruturasCondicionais {
             System.out.println("Adulto!");
         }
 
+        int salario = 6000;
+        String mensagemDoar = "Vou dar meu dinheiro!";
+        String mensagemNaoDoar = "Ainda não doar!";
+        String mensagem = (salario > 5000) ? mensagemDoar : mensagemNaoDoar;//ternario
+        System.out.println(mensagem);
+
+        if (salario > 5000){
+            mensagem = mensagemDoar;
+        }else {
+            mensagem = mensagemNaoDoar;
+        }
+        System.out.println(mensagem);
+
+
+
 
     }
 }
