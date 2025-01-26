@@ -7,5 +7,7 @@ public class Operadores {
         int res = n1 + n2;
         System.out.println("Valor: " + res);
 
+        int resto = 21 % 2;
+        System.out.println(resto);
     }
 }
