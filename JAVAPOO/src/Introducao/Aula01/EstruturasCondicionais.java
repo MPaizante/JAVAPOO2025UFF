@@ -11,5 +11,15 @@ public class EstruturasCondicionais {
 
         }
         System.out.println("Fora do if e else!");
+
+        if(idade < 15){
+            System.out.println("Infantil!");
+        } else if (idade >= 15 && idade < 18) {
+            System.out.println("Juvenil");
+        }else {
+            System.out.println("Adulto!");
+        }
+
+
     }
 }
