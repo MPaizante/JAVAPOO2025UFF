@@ -8,15 +8,15 @@ public class PessoaTest02 {
         Pessoa estudante = new Pessoa();
         Pessoa estudante2 = new Pessoa();
 
-        estudante.idade = 18;
-        estudante.nome = "Matheus";
-        estudante.sexo = 'M';
-        System.out.println("O meu nome: "+ estudante.nome+ ", minha idade: "+ estudante.idade+", meu sexo: " + estudante.sexo);
+        estudante.setIdade(18);
+        estudante.setNome("Matheus");
+        estudante.setSexo('M');
+        System.out.println("O meu nome: "+ estudante.getNome()+ ", minha idade: "+ estudante.getIdade()+", meu sexo: " + estudante.getSexo());
         System.out.println("----------------------------------------");
-        estudante2.idade = 26;
-        estudante2.nome = "Araujo";
-        estudante2.sexo = 'M';
-        System.out.println("O meu nome: "+ estudante2.nome+ ", minha idade: "+ estudante2.idade+", meu sexo: " + estudante2.sexo);
+        estudante2.setIdade(26);
+        estudante2.setNome("Araujo");
+        estudante2.setSexo('M');
+        System.out.println("O meu nome: "+ estudante2.getNome()+ ", minha idade: "+ estudante2.getIdade()+", meu sexo: " + estudante2.getSexo());
 
 
 
