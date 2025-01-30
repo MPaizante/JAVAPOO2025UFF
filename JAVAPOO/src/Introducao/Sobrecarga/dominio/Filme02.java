@@ -16,7 +16,11 @@ public class Filme02 {
     }
     public Filme02(String nome, String tipo, int  episodio,String genero , String estudio){
         this(nome, tipo,  episodio,genero);
-        this.genero = genero;
+        this.estudio = estudio;
+    }
+
+    public Filme02() {
+
     }
 
    /* public void init (String nome, String tipo, int  episodio){
@@ -60,8 +64,16 @@ public class Filme02 {
         return this.genero;
     }
 
+    public String getEstudio() {
+        return estudio;
+    }
+
+    public void setEstudio(String estudio) {
+        this.estudio = estudio;
+    }
+
     public void imprime(){
-        System.out.println("O filme "+this.nome+" tem o genero de "+this.genero+" e conta com "+this.episodios+" filmes cronologicos que sai sempre no "+this.tipo+".");
+        System.out.println("O filme "+this.nome+" tem o genero de "+this.genero+" e conta com "+this.episodios+" filmes cronologicos que sai sempre no "+this.tipo+" feito pelo estudio "+ this.estudio+".");
     }
 
 }
