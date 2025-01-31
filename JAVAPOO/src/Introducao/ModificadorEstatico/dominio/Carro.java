@@ -35,8 +35,8 @@ public class Carro {
     public static void setVelLimite(double velLimite) {
         Carro.velLimite = velLimite;
     }
-    public double getVelLimite() {
-        return velLimite;
+    public static double getVelLimite() {
+        return Carro.velLimite;
     }
 
     public double getVelMax() {
