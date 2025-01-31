@@ -7,7 +7,7 @@ public class Carro {
 
     public void imprime(){
         System.out.println("----------------------------------------------------------------------");
-        System.out.println("O carro "+this.nome + " de velocidade maxima "+this.getVelLimite() + " só pode ir até " + this.velMax+"KM/h.");
+        System.out.println("O carro "+this.nome + " de velocidade maxima "+Carro.velLimite + " só pode ir até " + this.velMax+"KM/h.");
         System.out.println("----------------------------------------------------------------------");
     }
     public Carro(String nome, double velMax ){
@@ -32,6 +32,9 @@ public class Carro {
         this.nome = nome;
     }
 
+    public static void setVelLimite(double velLimite) {
+        Carro.velLimite = velLimite;
+    }
     public double getVelLimite() {
         return velLimite;
     }
