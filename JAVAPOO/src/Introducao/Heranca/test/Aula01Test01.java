@@ -7,10 +7,10 @@ import Introducao.Heranca.dominio.Endereco;
 public class Aula01Test01 {
     public static void main(String[] args) {
         Endereco endereco = new Endereco("AAAA","222222-222");
-        Pessoa pessoa = new Pessoa("Aluno","111111111-11", endereco);
+        Pessoa pessoa = new Pessoa("Aluno","111111111-11");
         pessoa.setEndereco(endereco);
         pessoa.imprime();
-        Funcionario funcionario =new Funcionario();
+        Funcionario funcionario =new Funcionario("A","b");
         funcionario.setNome("Matheus");
         funcionario.setIdade(26);
         funcionario.setSalario(2015.85);

@@ -1,10 +1,18 @@
 package Introducao.POO.dominio;
 
+import Introducao.Heranca.dominio.Endereco;
+
 public class Pessoa {
 
     private String nome;
     private int idade;
     private char sexo;
+
+    public Pessoa(String nome, String cpf, Endereco endereco) {
+    }
+
+    public Pessoa(String a, String b, String c) {
+    }
 
     public void imprime(){
         System.out.println("==================================");

@@ -5,8 +5,8 @@ import Introducao.POO.dominio.Pessoa;
 public class PessoaTest02 {
 
     public static void main(String[] args) {
-        Pessoa estudante = new Pessoa();
-        Pessoa estudante2 = new Pessoa();
+        Pessoa estudante = new Pessoa("A","B","X");
+        Pessoa estudante2 = new Pessoa("A","B","C");
 
         estudante.setIdade(18);
         estudante.setNome("Matheus");
