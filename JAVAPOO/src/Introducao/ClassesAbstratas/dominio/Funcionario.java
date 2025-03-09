@@ -13,5 +13,8 @@ public abstract class Funcionario {
         return "Funcionario{"+"nome:"+this.nome+" salario:"+this.salario+"}";
     }
 
+    public double getSalario(){
+        return salario;
+    }
 
 }
