@@ -5,6 +5,12 @@ public class Desenvolvedor extends Funcionario {
         super(nome,salario);
 
     }
+
+    @Override
+    public void imprime() {
+
+    }
+
     public void calcularBonus(){
         this.salario += this.salario*0.1;
     }
