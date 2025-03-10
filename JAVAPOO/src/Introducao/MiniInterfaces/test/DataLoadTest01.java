@@ -9,5 +9,6 @@ public class DataLoadTest01 {
         FileLoad fileLoad = new FileLoad();
         databaseLoad.Load();
         fileLoad.Load();
+        fileLoad.remove();
     }
 }

@@ -1,5 +1,6 @@
 package Introducao.MiniInterfaces.dominio;
 
 public interface DadosLoad {
-    void Load();
+    public abstract void Load();
+    public abstract void checkPermission();
 }

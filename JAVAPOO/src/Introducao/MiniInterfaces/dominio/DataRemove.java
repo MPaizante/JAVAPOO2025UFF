@@ -1,4 +1,5 @@
 package Introducao.MiniInterfaces.dominio;
 
-public class DataRemove {
+public interface DataRemove {
+    public abstract void remove();
 }
