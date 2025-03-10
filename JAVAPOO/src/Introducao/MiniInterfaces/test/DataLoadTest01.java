@@ -10,5 +10,6 @@ public class DataLoadTest01 {
         databaseLoad.Load();
         fileLoad.Load();
         fileLoad.remove();
+        DatabaseLoad.retrieveMaxDataSize();
     }
 }

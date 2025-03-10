@@ -13,4 +13,10 @@ public class DatabaseLoad implements DadosLoad, DataRemove {
     public void remove(){
         System.out.println("Removendo do banco de Dados.");
     }
+
+    public static void retrieveMaxDataSize(){
+        System.out.println("Dentro da interface.");
+    };
+
+
 }
