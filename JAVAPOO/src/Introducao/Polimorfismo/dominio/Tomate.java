@@ -2,6 +2,7 @@ package Introducao.Polimorfismo.dominio;
 
 public class Tomate extends Produto implements Taxavel{
     public static final double IMPOSTO_PORCENTO = 0.03;
+    private String dataValidade;
 
     public Tomate(String nome, double valor){
         super(nome,valor);
@@ -10,5 +11,11 @@ public class Tomate extends Produto implements Taxavel{
     public double calcularImposto(){
         System.out.println("Calculando imposto TOMATE");
         return this.valor * IMPOSTO_PORCENTO;
+    }
+    private String getDataValidade(){
+        return this.dataValidade;
+    }
+    private void setDataValidade(String dataValidade){
+        this.dataValidade = dataValidade;
     }
 }
