@@ -12,10 +12,10 @@ public class Tomate extends Produto implements Taxavel{
         System.out.println("Calculando imposto TOMATE");
         return this.valor * IMPOSTO_PORCENTO;
     }
-    private String getDataValidade(){
+    public String getDataValidade(){
         return this.dataValidade;
     }
-    private void setDataValidade(String dataValidade){
+    public void setDataValidade(String dataValidade){
         this.dataValidade = dataValidade;
     }
 }
