@@ -8,5 +8,6 @@ public class WapperTest01 {
         Integer p4 = 1;
         Double p5 = 1D;
         Float p6 = 1F;
+        System.out.println(p6);
     }
 }
