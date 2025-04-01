@@ -1,6 +1,6 @@
 package UFF;
 
-public class Sanduiche {
+public abstract class Sanduiche {
     private String nome;
     private double calorias;
     private int numIngredientes;
@@ -17,9 +17,12 @@ public class Sanduiche {
     public void addIngredientes( Ingrediente ingrediente){
         if (numIngredientes < ingredientes.length){
             ingredientes[numIngredientes] = ingrediente;
+            this.calorias += ingrediente.getCaloria();
+        }else {
+            System.out.println("não pode por mais ingredientes");
+
         }
-
     }
-
+ 
 
 }

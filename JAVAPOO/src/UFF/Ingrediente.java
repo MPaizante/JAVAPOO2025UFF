@@ -8,4 +8,7 @@ public class Ingrediente {
     public double getCaloria(){
         return this.calorias;
     }
+    public String getNome(){
+        return nome;
+    }
 }
