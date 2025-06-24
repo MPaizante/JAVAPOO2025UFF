@@ -15,5 +15,9 @@ public class ListTest01 {
         for (int i = 0; i < nomes.size(); i++) {
             System.out.println(nomes.get(i));
         }
+        System.out.println(nomes);
+        List<Integer> numeros = new ArrayList<>();
+        numeros.add(1);
+        System.out.println(numeros);
     }
 }
