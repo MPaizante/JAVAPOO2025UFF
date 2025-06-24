@@ -1,6 +1,7 @@
 package AP3.ClassesUtilitarias;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.List;
 
 public class SmartPhoneListTest01 {
@@ -19,6 +20,6 @@ public class SmartPhoneListTest01 {
         }
         SmartPhone s4 = new SmartPhone("asdfj","POCO");
         System.out.println(smartPhones.contains(s2));
-
+        //Collections.sort(smartPhones);
     }
 }
