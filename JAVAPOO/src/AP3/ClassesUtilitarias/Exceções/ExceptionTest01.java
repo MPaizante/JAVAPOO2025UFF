@@ -15,9 +15,8 @@ public class ExceptionTest01 {
             System.out.println(nums[3]);
 
         }catch (Exception e){
-            System.out.println("Erro!" + e);
             e.printStackTrace();
-            System.out.println("Erro!" + e);
+            //System.out.println("Erro!" + e);
 
         }
 
