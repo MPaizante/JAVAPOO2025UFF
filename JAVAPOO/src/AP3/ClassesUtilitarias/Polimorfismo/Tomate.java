@@ -1,13 +1,14 @@
 package AP3.ClassesUtilitarias.Polimorfismo;
 
 public class Tomate extends Produto{
-    private static final double IMPOSTO = 0.1;
-    public Tomate(String nome, double valor){
-        super(nome,valor);
+    private String dataValidade;
+    //private static final double IMPOSTO = 0.1;
+    public Tomate(String nome, double valor, double imposto){
+        super(nome,valor,imposto);
     }
-    @Override
-    public double calcularImposto(){
-        System.out.println("Calculando");
-        return getValor() * IMPOSTO;
+
+
+    public String getDataValidade() {
+        return dataValidade;
     }
 }
