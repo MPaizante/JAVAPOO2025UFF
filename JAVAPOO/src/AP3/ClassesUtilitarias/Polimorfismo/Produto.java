@@ -1,11 +1,15 @@
 package AP3.ClassesUtilitarias.Polimorfismo;
 
-public class Produto {
+public abstract class Produto implements Taxavel {
     private String nome;
-    private Double valor;
+    private double valor;
 
-    public Produto(String nome, Double valor) {
+    public Produto(String nome, double valor) {
         this.nome = nome;
         this.valor = valor;
     }
+    public double getValor(){
+        return this.valor;
+    }
+
 }
