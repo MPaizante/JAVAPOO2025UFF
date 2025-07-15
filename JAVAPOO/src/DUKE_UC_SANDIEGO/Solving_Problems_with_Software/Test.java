@@ -19,6 +19,11 @@ public class Test {
         for (String n : words){
             System.out.print(n +" ");
         }
+        String simbolo = "%one%%two%%%three%%%%";
+        String [] sombolos = simbolo.split("[a-z]+");
+        for (String n : sombolos){
+            System.out.println(n);
+        }
 
     }
 }
