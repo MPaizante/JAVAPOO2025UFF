@@ -12,7 +12,13 @@ public class Test {
         String text = "Hello";
         text = text.concat(" World!");
         System.out.println(text);
-        String text = "Practice, practice, practice!";
-        s
+        String text1 = "Practice, practice, practice!";
+        System.out.println(text1.indexOf("prac"));
+        String text2 = "Hurray!!#! It's Friday! finally...";
+        String[] words = text2.split("!+");
+        for (String n : words){
+            System.out.print(n +" ");
+        }
+
     }
 }
