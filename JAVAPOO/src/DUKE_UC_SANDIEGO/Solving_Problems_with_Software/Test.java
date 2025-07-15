@@ -8,5 +8,11 @@ public class Test {
         for (int i = 0; i < nums.length; i++) {
             System.out.println(nums[i]);
         }
+
+        String text = "Hello";
+        text = text.concat(" World!");
+        System.out.println(text);
+        String text = "Practice, practice, practice!";
+        s
     }
 }
