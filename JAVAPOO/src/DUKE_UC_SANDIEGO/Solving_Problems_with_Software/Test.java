@@ -1,5 +1,7 @@
 package DUKE_UC_SANDIEGO.Solving_Problems_with_Software;
 
+import java.util.Arrays;
+
 public class Test {
     public static void main(String[] args) {
         String s = "2314511167";
@@ -20,10 +22,23 @@ public class Test {
             System.out.print(n +" ");
         }
         String simbolo = "%one%%two%%%three%%%%";
-        String [] sombolos = simbolo.split("[a-z]+");
+        String [] sombolos = simbolo.split("%+");
         for (String n : sombolos){
             System.out.println(n);
         }
+        System.out.println(Arrays.toString(sombolos));
+        String text5 = "one (1), two (2), three (3)";
+        String [] simbolos2 = text5.split("[a-z]+");
+        System.out.println(Arrays.toString(simbolos2));
+
+
+
+
+
+
+
+
+
 
     }
 }
